@@ -306,6 +306,8 @@ hr {
 
 
 
+
+
 .bottom-phrase{
   padding-top: 5%;
   font-size: 28px;
@@ -337,6 +339,23 @@ hr {
 .bottom-shedule-button{
   height: 40px;
   padding-top: 11px;
+}
+
+
+
+.footer-div{
+  display: inline-flex;
+  justify-content: center;
+}
+.footer{
+  padding-bottom: 8%;
+}
+.footer-a{
+  text-decoration: none;
+  color: rgb(51,51,51);
+  font-family: 'Alegreya', serif;
+  font-size: 14px;
+  padding: 4px;
 }
 
 
