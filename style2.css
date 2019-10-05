@@ -241,7 +241,7 @@ body{
   width: 100%;
   height: 500px;
   margin-top: 17%;
-  margin-bottom: 25%;
+  margin-bottom: 11%;
 }
 
 .about-body-bottom{
@@ -293,6 +293,52 @@ body{
   height: 480px;
 
 }
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: rgb(240,240,240);
+  height: 1px;
+}
+
+
+
+
+.bottom-phrase{
+  padding-top: 5%;
+  font-size: 28px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 74.995%;
+  font-weight: lighter;
+}
+.bottom-h1{
+  font-family: 'Alegreya', serif;
+  text-align: center;
+  font-weight: 100;
+  line-height: 125%;
+}
+
+
+
+.bottom-schedule{
+  margin-right: 44%;
+  margin-left: 44%;
+  margin-bottom: 5%;
+  background: rgb(0,221,85);
+  border: 2px solid rgb(0,221,85);
+  border-radius: 5%;
+  text-align: center;
+  padding-top: 10px;
+}
+.bottom-shedule-button{
+  height: 40px;
+  padding-top: 11px;
+}
+
 
 
 
