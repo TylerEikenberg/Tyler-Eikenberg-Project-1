@@ -88,20 +88,19 @@ body{
 }
 .schedule{
   border: 2px solid rgb(0,221,85);
+  border-radius: 3px;
   background: rgb(0,221,85);
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  padding-top: 1.5%;
+  margin-bottom: 3.5%;
 }
 .button{
-  width: 50%;
   color: white;
-  font-size: 14px;
   font-family: 'Roboto Mono', monospace;
   font-weight: lighter;
   letter-spacing: .13em;
-  border: 90%;
-  text-align: center;
+  text-decoration: none;
+  margin-left: 30px;
+   margin-right: 30px;
 }
 
 
@@ -142,49 +141,89 @@ body{
 .about-div{
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
   height: 500px;
 }
+
 .about-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   position: absolute;
   max-width: 575px;
   max-height: 355px;
   width: 100%;
   height: 100%;
   background: #f0f0f0; 
-  left: 50px;
+  left: 0px;
   bottom: 50%;
-  top: 15%;
+  top: 12%;
   font-family: 'Alegreya', serif;
   color: rgb(51,51,51);
 }
-.about-p{
-  width: 100%;
-  height: 100%;
-}
 .about-h{
-  display: inline;
+  font-size: 42px;
+  margin-left: 10%;
+}
+.about-p{
+  font-size: 24px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .about-us{
-  border: 2px solid rgb(0,221,85);
+  margin-right: 65%;
+  margin-left: 10%;
+  margin-bottom: auto;
   background: rgb(0,221,85);
-  overflow: hidden;
+  border: 2px solid rgb(0,221,85);
+  border-radius: 5%;
+  text-align: center;
+  padding-top: 10px;
 }
 .about-block{
-  background: red;
-  width: 150px;
-  height: 48px;
+  height: 32px;
+}
+.about-button{
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
 }
 .about-image-box{
-  position: absolute;
-  padding-left: 15%;
-  max-height: 480px;
 }
 .about-image{
-  width: 100%;
+  width: 965px;
   height: 480px;
 
+}
+
+
+
+
+
+.mid-phrase{
+  padding-top: 15%;
+  font-size: 28px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 74.995%;
+  font-weight: lighter;
+}
+.mid-h1{
+  font-family: 'Alegreya', serif;
+  text-align: center;
+}
+.mid-p{
+  font-family: 'Alegreya', serif;
+  text-align: center;
+  font-size: 18px;
+
+}
+
+
+.hr{
+  border: 100% solid black;
 }
 
 
