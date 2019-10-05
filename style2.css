@@ -83,7 +83,6 @@ body{
   color: rgb(51,51,51);
   width: 50%;
   font-size: 18px;
-  font-style: 
 }
 .schedule{
   border: 2px solid rgb(0,221,85);
@@ -99,7 +98,8 @@ body{
   letter-spacing: .13em;
   text-decoration: none;
   margin-left: 30px;
-   margin-right: 30px;
+  margin-right: 30px;
+  font-size: 15px;
 }
 
 
@@ -214,17 +214,84 @@ body{
 .mid-h1{
   font-family: 'Alegreya', serif;
   text-align: center;
+  font-weight: 100;
+  line-height: 125%;
 }
 .mid-p{
   font-family: 'Alegreya', serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
 
 }
 
 
 .hr{
   border: 100% solid black;
+}
+
+
+
+
+
+
+.about-div-bottom{
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 500px;
+  margin-top: 17%;
+  margin-bottom: 25%;
+}
+
+.about-body-bottom{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  max-width: 575px;
+  max-height: 355px;
+  width: 100%;
+  height: 100%;
+  background: #f0f0f0; 
+  left: 55%;
+  bottom: 50%;
+  top: 12%;
+  font-family: 'Alegreya', serif;
+  color: rgb(51,51,51);
+}
+.about-h-bottom{
+  font-size: 42px;
+  margin-left: 10%;
+}
+.about-p-bottom{
+  font-size: 24px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.about-us-bottom{
+  margin-right: 65%;
+  margin-left: 10%;
+  margin-bottom: auto;
+  background: rgb(0,221,85);
+  border: 2px solid rgb(0,221,85);
+  border-radius: 5%;
+  text-align: center;
+  padding-top: 10px;
+}
+.about-block-bottom{
+  height: 32px;
+}
+.about-button-bottom{
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+}
+.about-image-box-bottom{
+}
+.about-image-bottom{
+  width: 965px;
+  height: 480px;
+
 }
 
 
