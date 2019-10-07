@@ -5,6 +5,12 @@ body{
 }
 
 
+li{
+  display: inline-flex;
+  list-style: none;
+}
+
+
 
 .main {
   display: flex;
@@ -15,6 +21,7 @@ body{
 }
 
 .header {
+  z-index: 1;
   background: rgba(255,255,255,0.99);
   padding-top: 2%;
   padding-left: 200px;
@@ -43,6 +50,7 @@ body{
 .header-menu{
   padding-right: 10%;
 }
+
 
 
 
@@ -298,9 +306,16 @@ hr {
   border: 0;
   clear:both;
   display:block;
-  width: 96%;               
+  width: 1px;               
+  background-color: rgb(240,240,240);
+  height: 35px;
+}
+#bottom-hr{
+  margin-left: -50%;
+  width: 168%;               
   background-color: rgb(240,240,240);
   height: 1px;
+
 }
 
 
