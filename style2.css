@@ -167,6 +167,7 @@ a{
 
 
 .about-div{
+  margin-top: 4%;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -304,6 +305,7 @@ a{
   font-size: 24px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 8%;
 }
 
 .about-button-bottom{
@@ -367,12 +369,14 @@ hr {
   font-weight: lighter;
 }
 .bottom-h1{
+  font-size: 61px;
   font-family: 'Alegreya', serif;
   text-align: center;
   font-weight: 100;
   line-height: 125%;
 }
 .bottom-h1-2{
+  font-size: 61px;
   margin-top: -3.5%;
   font-family: 'Alegreya', serif;
   text-align: center;
@@ -384,14 +388,14 @@ hr {
 .schedule-button{
   background: rgb(0,221,85);
   border: 2px solid rgb(0,221,85);
-  height: 50px;
-  padding-top: 11px;
   border-radius: 5%;
   text-align: center;
-  padding-top: 10px;
   margin-right: 44%;
   margin-left: 44%;
   margin-bottom: 5%;
+  margin-top: -1%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
   font-size: 15px;
   letter-spacing: 0.10em;
   color: white;
