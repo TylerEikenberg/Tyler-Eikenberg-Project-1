@@ -7,7 +7,8 @@ I attempted to replicate [this webpage](https://ready-demo.squarespace.com/?noch
 ## Completion  
 For Project-1 I feel I did a very good job in replicating the exact look of the webpage.  
 Additionally I was able to replicate the animations of the buttons as well as the header that tracks your movement down the page.  
-However, I unfortunately did not make the website responsive.
+The website is responsive. If the window becomes too small or is viewed on a phone the items change size 
+to accomodate.
 
 Below are photos to compare the original website to the website I created.
 
